@@ -20,7 +20,7 @@ import java.io.IOException;
 public class StorageService {
 
     @Value("${application.bucket.name}")
-    private String bucketName;// = "test-s3-upload2023";
+    private String bucketName;// = "test-s3-upload20";
 
     @Autowired
     private AmazonS3 s3Client;
